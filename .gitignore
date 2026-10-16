@@ -1,0 +1,19 @@
+# Datasets and embeddings: too big, and licence-controlled
+data/
+*.mat
+*.bin
+*.vec
+*.gz
+
+# Model files and experiment logs
+checkpoints/
+*.pt
+*.pth
+*.onnx
+mlruns/
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
